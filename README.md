@@ -1,4 +1,4 @@
-Note: OpenJDK 17 must be installed for the application to work
+Note: OpenJDK 17 may need to be installed for the application to work properly
 
 Manual (what buttons do what function):
 - e = easy sudoku
