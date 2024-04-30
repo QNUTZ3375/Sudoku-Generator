@@ -165,6 +165,7 @@ void setup(){
   }
   generateRandomSudoku();
   generateRemainingDigits();
+  println("Random Sudoku Generated");
 }
 
 void draw(){
@@ -245,18 +246,24 @@ void keyPressed(){
   if(key == 'e'){ //e for easy
     generateEasySudoku();
     generateRemainingDigits();
+    puzzleState = 0;
+    println("Easy Sudoku Generated");
     showDifficulty = false;
   }
   
   if(key == 'm'){ //m for medium
     generateRandomSudoku();
     generateRemainingDigits();
+    puzzleState = 0;
+    println("Medium Sudoku Generated");
     showDifficulty = false;
   }
   
   if(key == 'h'){ //h for hard
     generateRandomSudokuVersionTwo();
     generateRemainingDigits();
+    puzzleState = 0;
+    println("Hard Sudoku Generated");
     showDifficulty = true;
   }
   
